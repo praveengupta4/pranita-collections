@@ -38,8 +38,8 @@ const CATALOG = {
     {
       id: "lehenga-3",
       categoryId: "lehengas",
-      name: "Festive Lehenga — Teal Embroidery",
-      image: "",
+      name: "RON-238",
+      image: "assets/products/lehengas/RON-238.png?v=1",
     },
     {
       id: "saree-1",
