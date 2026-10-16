@@ -24,24 +24,6 @@ const CATALOG = {
 
   items: [
     {
-      id: "lehenga-1",
-      categoryId: "lehengas",
-      name: "RON-139",
-      image: "assets/products/lehengas/RON-139.png?v=1",
-    },
-    {
-      id: "lehenga-2",
-      categoryId: "lehengas",
-      name: "RON-290",
-      image: "assets/products/lehengas/RON-290.png?v=1",
-    },
-    {
-      id: "lehenga-3",
-      categoryId: "lehengas",
-      name: "RON-238",
-      image: "assets/products/lehengas/RON-238.png?v=1",
-    },
-    {
       id: "RON-131",
       categoryId: "lehengas",
       name: "RON-131",
@@ -54,10 +36,28 @@ const CATALOG = {
       image: "assets/products/lehengas/RON-137.png?v=1",
     },
     {
+      id: "RON-139",
+      categoryId: "lehengas",
+      name: "RON-139",
+      image: "assets/products/lehengas/RON-139.png?v=1",
+    },
+    {
       id: "RON-197",
       categoryId: "lehengas",
       name: "RON-197",
       image: "assets/products/lehengas/RON-197.png?v=1",
+    },
+        {
+      id: "RON-238",
+      categoryId: "lehengas",
+      name: "RON-238",
+      image: "assets/products/lehengas/RON-238.png?v=1",
+    },
+    {
+      id: "RON-290",
+      categoryId: "lehengas",
+      name: "RON-290",
+      image: "assets/products/lehengas/RON-290.png?v=1",
     },
     {
       id: "saree-1",
