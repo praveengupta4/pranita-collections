@@ -26,8 +26,8 @@ const CATALOG = {
     {
       id: "lehenga-1",
       categoryId: "lehengas",
-      name: "Leghna 1",
-      image: "",
+      name: "RON-139",
+      image: "../assets/products/lehengas/RON-139.jpg",
     },
     {
       id: "lehenga-2",
