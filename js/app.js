@@ -17,6 +17,8 @@
   const catalogEmpty = document.getElementById("catalog-empty");
   const contactName = document.getElementById("contact-name");
   const contactPhone = document.getElementById("contact-phone");
+  const mobileContactName = document.getElementById("mobile-contact-name");
+  const mobileContactPhone = document.getElementById("mobile-contact-phone");
   const menuToggle = document.getElementById("menu-toggle");
   const sidebarBackdrop = document.getElementById("sidebar-backdrop");
   const backHome = document.getElementById("back-home");
@@ -48,6 +50,9 @@
     contactName.textContent = name;
     contactPhone.textContent = phone;
     contactPhone.href = phoneHref(phone);
+    mobileContactName.textContent = name;
+    mobileContactPhone.textContent = phone;
+    mobileContactPhone.href = phoneHref(phone);
   }
 
   function renderLandingCategories() {

@@ -477,6 +477,10 @@ a {
   margin-bottom: var(--space-lg);
 }
 
+.catalog__mobile-contact {
+  display: none;
+}
+
 .catalog__header::after {
   content: "";
   flex: 1;
@@ -712,6 +716,37 @@ a {
 
   .catalog__main {
     padding: calc(var(--band-height) + 4rem) var(--space-md) var(--space-xl);
+  }
+
+  .catalog__mobile-contact {
+    display: block;
+    margin-bottom: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    border-left: 2px solid var(--color-peach);
+    background: rgba(255, 218, 148, 0.18);
+  }
+
+  .catalog__mobile-contact-label {
+    margin: 0 0 0.2rem;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-ink-muted);
+  }
+
+  .catalog__mobile-contact-name {
+    margin: 0 0 0.1rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-teal-deep);
+  }
+
+  .catalog__mobile-contact-phone {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    color: var(--color-ink);
   }
 
   .product-grid {
