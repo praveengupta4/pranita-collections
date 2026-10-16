@@ -24,6 +24,12 @@ const CATALOG = {
 
   items: [
     {
+      id: "RON-104-1_3",
+      categoryId: "lehengas",
+      name: "RON-104-1_3",
+      image: "assets/products/lehengas/RON-104-1_3.png?v=1",
+    },
+    {
       id: "RON-131",
       categoryId: "lehengas",
       name: "RON-131",
