@@ -5,7 +5,7 @@
 const CATALOG = {
   contact: {
     name: "Vinita Garg",
-    phone: "(555) 000-0000",
+    phone: "(732) 910-6526",
   },
 
   sale: {
