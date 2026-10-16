@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pranita Collections — Indian ethnic wear boutique. Lehengas, sarees, kurtas, blouses, and jewelry."
+    />
+    <title>Pranita Collections</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/peacock-feather.png" />
+  </head>
+  <body>
+    <!-- Landing -->
+    <section id="landing" class="landing view" aria-label="Home">
+      <div class="decor" aria-hidden="true">
+        <div class="decor-band decor-band--top"></div>
+        <svg class="decor-mandala decor-mandala--top-left" viewBox="0 0 200 200" focusable="false">
+          <use href="#mandala"></use>
+        </svg>
+        <svg class="decor-mandala decor-mandala--bottom-right" viewBox="0 0 200 200" focusable="false">
+          <use href="#mandala"></use>
+        </svg>
+        <img class="decor-feather decor-feather--left" src="assets/peacock-feather.png" alt="" />
+        <img class="decor-feather decor-feather--right" src="assets/peacock-feather.png" alt="" />
+        <div class="decor-band decor-band--bottom"></div>
+      </div>
+
+      <div class="landing__content">
+        <h1 class="landing__logo">
+          <img src="assets/logo.png" alt="Pranita Collections" width="856" height="713" />
+        </h1>
+
+        <aside id="landing-sale" class="landing-sale" aria-labelledby="landing-sale-title" hidden>
+          <p class="landing-sale__eyebrow">Sale</p>
+          <h2 class="landing-sale__title" id="landing-sale-title"></h2>
+          <p class="landing-sale__message" id="landing-sale-message"></p>
+        </aside>
+
+        <div class="ornament-divider" aria-hidden="true">
+          <span class="ornament-divider__gem"></span>
+        </div>
+
+        <nav class="landing__categories" id="landing-categories" aria-label="Browse styles"></nav>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section id="catalog" class="catalog view" aria-label="Collection" hidden>
+      <button
+        type="button"
+        class="catalog__menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="sidebar"
+      >
+        <span class="menu-toggle__icon" aria-hidden="true"></span>
+        <span class="menu-toggle__label">Menu</span>
+      </button>
+      <div class="catalog__backdrop" id="sidebar-backdrop" hidden></div>
+
+      <aside class="sidebar" id="sidebar">
+        <svg class="sidebar__mandala" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+          <use href="#mandala"></use>
+        </svg>
+        <div class="sidebar__top">
+          <button type="button" class="sidebar__home" id="back-home" aria-label="Pranita Collections — back to home">
+            <span class="sidebar__logo" aria-hidden="true"></span>
+          </button>
+          <nav class="sidebar__nav" aria-label="Styles" id="sidebar-categories"></nav>
+        </div>
+        <div class="sidebar__contact">
+          <p class="sidebar__contact-label">Contact</p>
+          <p class="sidebar__contact-name" id="contact-name"></p>
+          <a class="sidebar__contact-phone" id="contact-phone" href="tel:"></a>
+        </div>
+      </aside>
+
+      <main class="catalog__main">
+        <div class="decor-band decor-band--top" aria-hidden="true"></div>
+        <header class="catalog__header">
+          <h2 class="catalog__title" id="catalog-title">Collection</h2>
+        </header>
+        <div class="product-grid" id="product-grid"></div>
+        <p class="catalog__empty" id="catalog-empty" hidden>No pieces in this style yet. Check back soon.</p>
+      </main>
+    </section>
+
+    <!-- Sale announcement -->
+    <div
+      id="sale-popup"
+      class="sale-popup"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="sale-title"
+      hidden
+    >
+      <div class="sale-popup__panel">
+        <button type="button" class="sale-popup__close" id="sale-close" aria-label="Close announcement">
+          &times;
+        </button>
+        <p class="sale-popup__eyebrow">Sale</p>
+        <h2 class="sale-popup__title" id="sale-title"></h2>
+        <p class="sale-popup__message" id="sale-message"></p>
+      </div>
+    </div>
+
+    <script src="js/catalog.js"></script>
+    <script src="js/ornaments.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
