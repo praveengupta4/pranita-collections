@@ -32,8 +32,8 @@ const CATALOG = {
     {
       id: "lehenga-2",
       categoryId: "lehengas",
-      name: "Pastel Lehenga — Soft Peach",
-      image: "",
+      name: "RON-290",
+      image: "assets/products/lehengas/RON-290.png?v=1",
     },
     {
       id: "lehenga-3",
