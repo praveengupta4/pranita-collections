@@ -26,7 +26,7 @@ const CATALOG = {
     {
       id: "lehenga-1",
       categoryId: "lehengas",
-      name: "Bridal Lehenga — Red & Gold",
+      name: "Leghna 1",
       image: "",
     },
     {
