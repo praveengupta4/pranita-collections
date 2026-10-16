@@ -48,6 +48,18 @@ const CATALOG = {
       image: "assets/products/lehengas/RON-131.png?v=1",
     },
     {
+      id: "RON-137",
+      categoryId: "lehengas",
+      name: "RON-137",
+      image: "assets/products/lehengas/RON-137.png?v=1",
+    },
+    {
+      id: "RON-197",
+      categoryId: "lehengas",
+      name: "RON-197",
+      image: "assets/products/lehengas/RON-197.png?v=1",
+    },
+    {
       id: "saree-1",
       categoryId: "sarees",
       name: "Banarasi Silk Saree",
