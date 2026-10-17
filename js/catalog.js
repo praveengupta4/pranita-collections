@@ -138,10 +138,28 @@ const CATALOG = {
       image: "assets/products/jewelry/Jaipuri-001.jpeg?v=1",
     },
     {
-      id: "jewelry-2",
+      id: "Jaipuri-002",
       categoryId: "jewelry",
-      name: "Temple Jewelry Earrings",
-      image: "",
+      name: "Jaipuri-002",
+      image: "assets/products/jewelry/Jaipuri-002.jpeg?v=1",
+    },
+    {
+      id: "Jaipuri-003",
+      categoryId: "jewelry",
+      name: "Jaipuri-003",
+      image: "assets/products/jewelry/Jaipuri-003.jpeg?v=1",
+    },
+    {
+      id: "Jaipuri-004",
+      categoryId: "jewelry",
+      name: "Jaipuri-004",
+      image: "assets/products/jewelry/Jaipuri-004.jpeg?v=1",
+    },
+    {
+      id: "Jaipuri-005",
+      categoryId: "jewelry",
+      name: "Jaipuri-005",
+      image: "assets/products/jewelry/Jaipuri-005.jpeg?v=1",
     },
     {
       id: "jewelry-3",
