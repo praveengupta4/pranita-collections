@@ -93,7 +93,7 @@ const CATALOG = {
       id: "RG-104",
       categoryId: "kurtas",
       name: "RG-104",
-      image: "assets/products/kurtas/RG-104.png?v=1",
+      image: "assets/products/kurtas/RG-104.png?v=2",
     },
     {
       id: "kurta-1",
