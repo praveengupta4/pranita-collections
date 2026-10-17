@@ -93,7 +93,7 @@ const CATALOG = {
       id: "RG-104",
       categoryId: "kurtas",
       name: "RG-104",
-      image: "assets/products/lehengas/RG-104.png?v=1",
+      image: "assets/products/kurtas/RG-104.png?v=1",
     },
     {
       id: "kurta-1",
@@ -132,10 +132,10 @@ const CATALOG = {
       image: "",
     },
     {
-      id: "jewelry-1",
+      id: "Jaipuri-001",
       categoryId: "jewelry",
-      name: "Kundan Necklace Set",
-      image: "",
+      name: "Jaipuri-001",
+      image: "assets/products/jewelry/Jaipuri-001.jpeg?v=1",
     },
     {
       id: "jewelry-2",
