@@ -72,10 +72,40 @@ const CATALOG = {
       image: "assets/products/lehengas/RG-102.png?v=1",
     },
     {
-      id: "saree-1",
+      id: "Saree-01",
       categoryId: "sarees",
-      name: "Banarasi Silk Saree",
-      image: "",
+      name: "Silk Saree-01",
+      image: "assets/products/sarees/Saree-01.png?v=1",
+    },
+     {
+      id: "Saree-02",
+      categoryId: "sarees",
+      name: "Silk Saree-02",
+      image: "assets/products/sarees/Saree-02.png?v=1",
+    },
+     {
+      id: "Saree-03",
+      categoryId: "sarees",
+      name: "Silk Saree-03",
+      image: "assets/products/sarees/Saree-03.png?v=1",
+    },
+     {
+      id: "Saree-04",
+      categoryId: "sarees",
+      name: "Silk Saree-04",
+      image: "assets/products/sarees/Saree-04.png?v=1",
+    },
+     {
+      id: "Saree-05",
+      categoryId: "sarees",
+      name: "Silk Saree-05",
+      image: "assets/products/sarees/Saree-05.png?v=1",
+    },
+     {
+      id: "Saree-06",
+      categoryId: "sarees",
+      name: "Silk Saree-06",
+      image: "assets/products/sarees/Saree-06.png?v=1",
     },
     {
       id: "saree-2",
