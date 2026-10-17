@@ -72,12 +72,6 @@ const CATALOG = {
       image: "assets/products/lehengas/RG-102.png?v=1",
     },
     {
-      id: "RG-104",
-      categoryId: "lehengas",
-      name: "RG-104",
-      image: "assets/products/lehengas/RG-104.png?v=1",
-    },
-    {
       id: "saree-1",
       categoryId: "sarees",
       name: "Banarasi Silk Saree",
@@ -94,6 +88,12 @@ const CATALOG = {
       categoryId: "sarees",
       name: "Cotton Handloom Saree",
       image: "",
+    },
+        {
+      id: "RG-104",
+      categoryId: "kurtas",
+      name: "RG-104",
+      image: "assets/products/lehengas/RG-104.png?v=1",
     },
     {
       id: "kurta-1",
