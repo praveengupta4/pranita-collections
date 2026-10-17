@@ -101,25 +101,37 @@ const CATALOG = {
       name: "Silk Saree-05",
       image: "assets/products/sarees/Saree-05.png?v=1",
     },
-     {
+    {
       id: "Saree-06",
       categoryId: "sarees",
       name: "Silk Saree-06",
       image: "assets/products/sarees/Saree-06.png?v=1",
     },
     {
-      id: "saree-2",
+      id: "Saree-07",
       categoryId: "sarees",
-      name: "Georgette Party Saree",
-      image: "",
+      name: "Silk Saree-07",
+      image: "assets/products/sarees/Saree-07.png?v=1",
     },
     {
-      id: "saree-3",
+      id: "Saree-08",
       categoryId: "sarees",
-      name: "Cotton Handloom Saree",
-      image: "",
+      name: "Silk Saree-08",
+      image: "assets/products/sarees/Saree-08.png?v=1",
     },
-        {
+    {
+      id: "Saree-09",
+      categoryId: "sarees",
+      name: "Durga Navmi",
+      image: "assets/products/sarees/DurgaNavmi.png?v=1",
+    },
+    {
+      id: "Saree-10",
+      categoryId: "sarees",
+      name: "Kerala Pattu",
+      image: "assets/products/sarees/KeralaPattu.png?v=1",
+    },
+    {
       id: "RG-104",
       categoryId: "kurtas",
       name: "RG-104",
